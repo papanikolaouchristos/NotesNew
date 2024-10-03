@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\NotesApi</_PublishTargetUrl>
+    <History>True|2024-07-14T11:43:40.9480596Z;True|2024-07-14T12:50:04.7904693+03:00;True|2024-07-14T09:46:27.6663056+03:00;True|2024-07-14T09:45:19.8177159+03:00;True|2024-07-14T09:40:58.9344804+03:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+</Project>
