@@ -20,8 +20,18 @@ namespace NotesApi.Controllers
         [Route("GetAllNotes")]
         public ActionResult GetAllNotes()
         {
-            var res = db.Notes.ToList();
-            return Ok(res);
+            try
+            {
+                var res = db.Notes.ToList();
+                return Ok(res);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return BadRequest(ex.Message);
+
+            }
         }
 
         [HttpGet]
